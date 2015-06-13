@@ -14,6 +14,15 @@
 		909108CC1B2C5A910074616E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909108CA1B2C5A910074616E /* LaunchScreen.storyboard */; };
 		909108D71B2C5A920074616E /* YesNoColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909108D61B2C5A920074616E /* YesNoColorTests.swift */; };
 		909108E21B2C5A920074616E /* YesNoColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909108E11B2C5A920074616E /* YesNoColorUITests.swift */; };
+		909108F11B2C5ACE0074616E /* btn_no.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 909108EF1B2C5ACE0074616E /* btn_no.jpg */; };
+		909108F21B2C5ACE0074616E /* btn_yes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 909108F01B2C5ACE0074616E /* btn_yes.jpg */; };
+		909108F71B2C97B30074616E /* bg2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 909108F51B2C97B30074616E /* bg2.jpg */; };
+		909108F81B2C97B30074616E /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 909108F61B2C97B30074616E /* bg1.png */; };
+		909108FB1B2CA2980074616E /* no.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 909108F91B2CA2980074616E /* no.mp3 */; };
+		909108FC1B2CA2980074616E /* yes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 909108FA1B2CA2980074616E /* yes.mp3 */; };
+		909109021B2CAC160074616E /* marioLose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 909109011B2CAC160074616E /* marioLose.mp3 */; };
+		909109061B2CACA30074616E /* wrong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 909109051B2CACA30074616E /* wrong.mp3 */; };
+		909109081B2CAD730074616E /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 909109071B2CAD730074616E /* correct.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		909108DD1B2C5A920074616E /* YesNoColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YesNoColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		909108E11B2C5A920074616E /* YesNoColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesNoColorUITests.swift; sourceTree = "<group>"; };
 		909108E31B2C5A920074616E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909108EF1B2C5ACE0074616E /* btn_no.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = btn_no.jpg; sourceTree = "<group>"; };
+		909108F01B2C5ACE0074616E /* btn_yes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = btn_yes.jpg; sourceTree = "<group>"; };
+		909108F51B2C97B30074616E /* bg2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg2.jpg; sourceTree = "<group>"; };
+		909108F61B2C97B30074616E /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		909108F91B2CA2980074616E /* no.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = no.mp3; sourceTree = "<group>"; };
+		909108FA1B2CA2980074616E /* yes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yes.mp3; sourceTree = "<group>"; };
+		909109011B2CAC160074616E /* marioLose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marioLose.mp3; sourceTree = "<group>"; };
+		909109051B2CACA30074616E /* wrong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrong.mp3; sourceTree = "<group>"; };
+		909109071B2CAD730074616E /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,15 @@
 		909108C01B2C5A910074616E /* YesNoColor */ = {
 			isa = PBXGroup;
 			children = (
+				909109051B2CACA30074616E /* wrong.mp3 */,
+				909109071B2CAD730074616E /* correct.mp3 */,
+				909109011B2CAC160074616E /* marioLose.mp3 */,
+				909108F91B2CA2980074616E /* no.mp3 */,
+				909108FA1B2CA2980074616E /* yes.mp3 */,
+				909108F51B2C97B30074616E /* bg2.jpg */,
+				909108F61B2C97B30074616E /* bg1.png */,
+				909108EF1B2C5ACE0074616E /* btn_no.jpg */,
+				909108F01B2C5ACE0074616E /* btn_yes.jpg */,
 				909108C11B2C5A910074616E /* AppDelegate.swift */,
 				909108C31B2C5A910074616E /* ViewController.swift */,
 				909108C51B2C5A910074616E /* Main.storyboard */,
@@ -228,9 +255,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				909108F21B2C5ACE0074616E /* btn_yes.jpg in Resources */,
+				909108FB1B2CA2980074616E /* no.mp3 in Resources */,
 				909108CC1B2C5A910074616E /* LaunchScreen.storyboard in Resources */,
+				909108F11B2C5ACE0074616E /* btn_no.jpg in Resources */,
+				909109061B2CACA30074616E /* wrong.mp3 in Resources */,
+				909108F71B2C97B30074616E /* bg2.jpg in Resources */,
+				909108F81B2C97B30074616E /* bg1.png in Resources */,
+				909109021B2CAC160074616E /* marioLose.mp3 in Resources */,
+				909108FC1B2CA2980074616E /* yes.mp3 in Resources */,
 				909108C91B2C5A910074616E /* Assets.xcassets in Resources */,
 				909108C71B2C5A910074616E /* Main.storyboard in Resources */,
+				909109081B2CAD730074616E /* correct.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,9 +433,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YesNoColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tk.research27.YesNoColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -408,9 +446,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YesNoColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tk.research27.YesNoColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
